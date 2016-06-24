@@ -32,7 +32,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "webmock"
-  spec.add_development_dependency "codeclimate-test-reporter"
 
   spec.add_dependency "excon"
   spec.add_dependency "hashie"
