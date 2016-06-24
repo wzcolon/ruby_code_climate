@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/repos/576d3a30fec988333f004dc3/badges/62e0bde990cd2896cf53/gpa.svg)](https://codeclimate.com/repos/576d3a30fec988333f004dc3/feed)
+[![Code Climate](https://codeclimate.com/github/wzcolon/ruby_code_climate/badges/gpa.svg)](https://codeclimate.com/github/wzcolon/ruby_code_climate)
 
 # RubyCodeClimate
 
