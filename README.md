@@ -1,4 +1,6 @@
 [![Code Climate](https://codeclimate.com/github/wzcolon/ruby_code_climate/badges/gpa.svg)](https://codeclimate.com/github/wzcolon/ruby_code_climate)
+[![Build Status](https://semaphoreci.com/api/v1/wzcolon/ruby_code_climate/branches/master/badge.svg)](https://semaphoreci.com/wzcolon/ruby_code_climate)
+
 
 # RubyCodeClimate
 
