@@ -55,7 +55,7 @@ Example Response:
 ]
 ```
 
-GET /api/repos/:repo_id
+### GET /api/repos/:repo_id
 ```ruby
 CodeClimate.get_repo(repo_id: '123')
 ```
@@ -90,7 +90,7 @@ Example Reponse:
 }
 ```
 
-POST /api/repos/:repo_id/refresh
+### POST /api/repos/:repo_id/refresh
 ```ruby
 CodeClimate.refresh_repo(repo_id: '123')
 ```
@@ -98,7 +98,7 @@ CodeClimate.refresh_repo(repo_id: '123')
 This will return either true or false based on the response from CodeClimate
 
 
-GET /api/repos/:repo_id/branches/:branch_name
+### GET /api/repos/:repo_id/branches/:branch_name
 ```ruby
 CodeClimate.get_branch(repo_id: '123', branch_name: 'master')
 ```
@@ -132,7 +132,8 @@ Example Response:
   }
 }
 ```
-POST /api/repos/:repo_id/branches/:branch_name/refresh
+
+### POST /api/repos/:repo_id/branches/:branch_name/refresh
 ```ruby
 CodeClimate.refresh_branch(repo_id: '123', branch_name: 'master')
 ```
