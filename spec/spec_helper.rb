@@ -3,6 +3,8 @@ require 'ruby_code_climate'
 require 'pry'
 require 'webmock/rspec'
 require 'support/webmock/code_climate_mocks'
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
 
 RSpec.configure do |config|
   config.before do
