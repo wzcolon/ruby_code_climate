@@ -25,7 +25,7 @@ Or install it yourself as:
 
 ```ruby
 # config/initializers/code_climate.rb
-RubyCodeClimate.configuration do |config|
+RubyCodeClimate.configure do |config|
   config.api_token = 'your_token_here'
 end
 ```
