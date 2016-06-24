@@ -38,7 +38,7 @@ CodeClimate.get_repos
 ```
 
 Example Response:
-
+```
 [
   {
     "id": "4906075af3ea000dc6000740",
@@ -51,6 +51,7 @@ Example Response:
     "branch": "dev"
   }
 ]
+```
 
 GET /api/repos/:repo_id
 ```ruby
@@ -58,7 +59,7 @@ CodeClimate.get_repo(repo_id: '123')
 ```
 
 Example Reponse:
-
+```
 {
   "id": "4906075af3ea000dc6000740",
   "account_id": "3d415d14a1747d5991000001",
@@ -85,6 +86,7 @@ Example Reponse:
     "covered_percent": 23
   }
 }
+```
 
 POST /api/repos/:repo_id/refresh
 ```ruby
@@ -100,7 +102,7 @@ CodeClimate.get_branch(repo_id: '123', branch_name: 'master')
 ```
 
 Example Response:
-
+```
 {
   "id": "4906075af3ea000dc6000740",
   "account_id": "3d415d14a1747d5991000001",
@@ -127,7 +129,7 @@ Example Response:
     "covered_percent": 23
   }
 }
-
+```
 POST /api/repos/:repo_id/branches/:branch_name/refresh
 ```ruby
 CodeClimate.refresh_branch(repo_id: '123', branch_name: 'master')
