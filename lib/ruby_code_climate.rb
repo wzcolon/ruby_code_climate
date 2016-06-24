@@ -5,6 +5,7 @@ require 'json'
 
 require 'code_climate'
 require 'repo'
+require 'branch' # include after Repo
 
 module RubyCodeClimate
 
